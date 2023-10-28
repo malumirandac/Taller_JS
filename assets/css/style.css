@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  /* ordena por defecto a los hijos con cierta direccion */
+  justify-content: center;
+}
+/* por defecto está en flex direction rows */
+.imagenes-1 img {
+  height: 150px;
+  width: 150px;
+}
+
+.nav a {
+  display: flex;
+  justify-content: center;
+}
+
+/* justify content centra en el contenido principal */
+/* justify-content  */
+/* flex-direccion column cambia el eje */
+/* align item centra en el eje secundario */
